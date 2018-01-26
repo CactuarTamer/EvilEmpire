@@ -26,7 +26,7 @@ public class PlayerMover : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            targetPostion = cameraRayCaster.getMouseVectorPostion();
+            targetPostion = cameraRayCaster.GetCurrentMousePosition();
             startMoving = true;
         }
 

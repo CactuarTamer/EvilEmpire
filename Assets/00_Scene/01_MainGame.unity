@@ -93,6 +93,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 224568149}
+  - 114: {fileID: 224568150}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -114,6 +115,18 @@ Transform:
   - {fileID: 1893770888}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &224568150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224568148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c341cb99414aad847a53ce930a3b9274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &517215898
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +389,7 @@ GameObject:
   - 4: {fileID: 1320100773}
   - 114: {fileID: 1320100772}
   m_Layer: 0
-  m_Name: MouseCursor
+  m_Name: MC_MouseCursor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,7 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea88c724148f3e4499bd96f7f2fabf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
+  MouseCursor: {fileID: 0}
 --- !u!1 &1893770887
 GameObject:
   m_ObjectHideFlags: 0
