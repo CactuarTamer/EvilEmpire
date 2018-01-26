@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5BB67686-0498-6C8F-AA80-3AEDB5CC6CB0}</ProjectGuid>
+    <ProjectGuid>{108D7FFE-8061-854A-A79F-8EEB22155493}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraRayCaster.cs" />
+     <Compile Include="Assets\MouseCursorFollow\CameraRayCaster.cs" />
+     <Compile Include="Assets\PlayerMover.cs" />
      <Compile Include="Assets\mouseManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity_5.3.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

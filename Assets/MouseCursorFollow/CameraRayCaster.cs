@@ -6,11 +6,13 @@ public class CameraRayCaster : MonoBehaviour {
 
     public Transform MouseCursor;
 
+    Vector3 objectHit;
+
     // Use this for initialization
 
     private void Start()
     {
-        Cursor.visible = false;
+        
     }
 
     // Update is called once per frame
@@ -21,10 +23,17 @@ public class CameraRayCaster : MonoBehaviour {
             .ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
-            Vector3 objectHit = hit.point;
-            MouseCursor.position = new Vector3(objectHit.x, objectHit.y, objectHit.z);
+            objectHit = hit.point;
+            objectHit.z = 0;
+            MouseCursor.position = new Vector3(objectHit.x, objectHit.y, 0);
             // Do something with the object that was hit by the raycast.
         }
+    }
+
+    public Vector3 getMouseVectorPostion()
+    {
+        
+        return objectHit;
     }
 
 
