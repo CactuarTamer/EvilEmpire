@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MouseCursorFollow\CameraRayCaster.cs" />
-     <Compile Include="Assets\PlayerMover.cs" />
      <Compile Include="Assets\mouseManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity_5.3.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

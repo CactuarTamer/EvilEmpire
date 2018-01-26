@@ -10,10 +10,7 @@ public class CameraRayCaster : MonoBehaviour {
 
     // Use this for initialization
 
-    private void Start()
-    {
-        
-    }
+  
 
     // Update is called once per frame
     void Update ()
